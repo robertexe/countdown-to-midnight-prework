@@ -9,5 +9,7 @@ def countdown(n)
 end
 
 def counterdown_with_sleep(x)
-  sleep x
+  while x>0 do
+    sleep x
+  end
 end
